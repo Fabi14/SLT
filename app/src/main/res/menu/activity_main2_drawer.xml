@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Tagebuch"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Tagebuch" />
+        <item
+            android:id="@+id/nav_Tracker"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="Tracker" />
+        <item
+            android:id="@+id/nav_Krafttraining"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="Krafttraining" />
+        <item
+            android:id="@+id/nav_neuerEintrag"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="neuer Tagebucheintrag" />
+    </group>
+
+    <item android:title="Statistik">
+        <menu>
+            <item
+                android:id="@+id/nav_Ziele"
+                android:icon="@drawable/photo"
+                android:title="Ziele" />
+            <item
+                android:id="@+id/nav_Gewichtsverlauf"
+                android:icon="@mipmap/ic_launcher_round"
+                android:title="Gewichtsverlauf" />
+        </menu>
+    </item>
+
+</menu>
